@@ -1,0 +1,30 @@
+package chapter3;
+
+public class Test_2 {
+
+	public static void main(String[] args) {
+//		복합 대입 연산자
+		int i = 5;
+		int sum = 100;
+		
+		sum += i; // sum = sum + i; 
+		System.out.println("sum = " + sum);
+		
+		sum = 100;
+		sum -= i; // sum = sum - i;
+		System.out.println("sum = " + sum);
+
+		sum = 100;
+		sum *= i; // sum = sum * i;
+		System.out.println("sum = " + sum);
+
+		sum = 100;
+		sum /= i; // sum = sum / i;
+		System.out.println("sum = " + sum);
+		
+//		shift(비트) 연산자
+//		<< (왼쪽으로 한번 밀어라, 2로 곱한 결과)
+//		>> (오른쪽으로 한번 밀어라, 2로 나눈 결과)
+	}
+
+}

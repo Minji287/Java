@@ -1,0 +1,12 @@
+package newPackage;
+
+public class SamplePrintf_2 {
+
+	public static void main(String[] args) {
+		System.out.println("지금은 2023년 2월 입니다.");
+		System.out.printf("지금은 %d년 %d월 입니다.%n", 2023, 02);
+		System.out.printf("%s%n", "감사합니다"); // %s 문자열 출력 %n 줄바꿈
+		
+	}
+
+}

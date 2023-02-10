@@ -1,0 +1,14 @@
+package chapter3;
+
+public class Test_1 {
+
+	public static void main(String[] args) {
+		int y;
+		int x;
+		y = x = 3;
+		
+		System.out.println(x);
+		System.out.println(y);
+	}
+
+}

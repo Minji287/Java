@@ -1,0 +1,39 @@
+package package_2;
+
+import java.util.Scanner;
+
+public class Test_1 {
+
+	public static void main(String[] args) {
+		int charge = 0;
+		String stat = "";
+		Scanner scn = new Scanner(System.in);
+		
+		System.out.println("나이를 입력해주세요.");
+		int age = scn.nextInt();
+		
+		if(age <= 7) {
+			charge = 1000;
+			stat = "미취득생";
+			System.out.println("입장료 " + charge + "원");
+			System.out.println(stat + "입니다");
+		} else if(age <= 13) {
+			charge = 2000;
+			stat = "초등학생";
+			System.out.println("입장료 " + charge + "원");
+			System.out.println(stat + "입니다");
+		} else if(age <= 19) {
+			charge = 2500;
+			stat = "중고등학생";
+			System.out.println("입장료 " + charge + "원");
+			System.out.println(stat + "입니다");
+		} else {
+			charge = 3000;
+			stat = "일반인";
+			System.out.println("입장료 " + charge + "원");
+			System.out.println(stat + "입니다");
+		}
+		
+	}
+
+}

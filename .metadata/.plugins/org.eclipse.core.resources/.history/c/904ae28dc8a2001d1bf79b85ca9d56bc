@@ -1,0 +1,20 @@
+package newPackage;
+
+import java.util.Scanner;
+
+public class Sample_6 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("이름 입력하세요.");
+		String name = scanner.nextLine();
+		System.out.println("국어 성적 입력하세요.");
+		String kor = scanner.nextLine();
+		System.out.println("수학 입력하세요.");
+		String mat = scanner.nextLine();
+		
+		
+	}
+
+}

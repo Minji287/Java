@@ -1,0 +1,12 @@
+package package_1;
+
+import java.util.Scanner;
+
+public class Page_98 {
+
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		int kr = Integer.parseInt(nextLine());
+	}
+
+}

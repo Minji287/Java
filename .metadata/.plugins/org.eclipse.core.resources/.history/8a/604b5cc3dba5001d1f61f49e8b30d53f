@@ -1,0 +1,16 @@
+package package_1;
+
+import java.util.Scanner;
+
+public class Test_1 {
+
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		
+		System.out.println("나이를 입력해주세요.");
+		int age = scn.Integer.ParseInt()
+		
+		System.out.println();
+	}
+
+}

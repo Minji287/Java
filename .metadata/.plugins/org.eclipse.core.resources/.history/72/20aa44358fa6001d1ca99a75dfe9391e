@@ -1,0 +1,12 @@
+package package_1;
+
+public class Test_5 {
+
+	public static void main(String[] args) {
+		int ss = (int)3.14; // 강제 형변환
+		System.out.println(ss);
+		double kk = 3;
+		System.out.println(kk);
+	}
+
+}

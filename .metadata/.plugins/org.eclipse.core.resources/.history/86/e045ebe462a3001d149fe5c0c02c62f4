@@ -1,0 +1,14 @@
+package package_1;
+
+public class Test_2 {
+
+	public static void main(String[] args) {
+		int year = 2023;
+		int month = 2;
+		int date = 3;
+		
+		System.out.printf("오늘은 %d년 %d월 %d일 입니다.%n", 2023, 2, 3);
+		System.out.println("오늘은 " + year + "년 " + month + "월 " + date + "일 입니다.");
+	}
+
+}

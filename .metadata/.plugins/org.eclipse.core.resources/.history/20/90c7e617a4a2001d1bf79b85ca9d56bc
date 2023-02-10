@@ -1,0 +1,18 @@
+package Sample_2;
+
+public class Test_5 {
+
+	public static void main(String[] args) {
+		int x = 55;
+		int y = 77;
+		int t;
+		t = x;
+		x = y;
+		y = t;
+		
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(t);
+	}
+
+}

@@ -1,0 +1,27 @@
+package chapter3;
+
+public class Ex3_2 {
+
+	public static void main(String[] args) {
+		int i = 5, j = 0; // 1. 변수 값 저장
+				 
+		j = i++; // 2. j = i (j에 i를 먼저 넣어주고)
+				 //		-> j = 5, i = 5
+				 // 3. i + 1 (i 증가)
+				 // 	-> j = 5, i = 6;
+		
+		System.out.println("j=i++; 실행 후, i=" + i + ", j=" + j);
+				 // 4. 실행 -> i=6, j=5
+
+		
+		i = 5;
+		j = 0;	 // 1. 변수 값 저장
+				 
+		j = ++i; // 2. i + 1 (i 증가)
+				 // 3. j = i (j에 i를 넣어주기)
+		
+		System.out.println("j=++i; 실행 후, i=" + i + ", j=" + j);
+				 // 4. 실행 -> i=6, j=6
+	}
+
+}

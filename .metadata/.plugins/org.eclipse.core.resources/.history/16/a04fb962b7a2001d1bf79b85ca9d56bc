@@ -1,0 +1,9 @@
+package newPackage;
+
+public class SamplePrintf_1 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

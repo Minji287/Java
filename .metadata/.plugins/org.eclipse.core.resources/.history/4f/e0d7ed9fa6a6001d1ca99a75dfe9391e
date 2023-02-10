@@ -1,0 +1,15 @@
+package package_2;
+
+public class Test_2 {
+
+	public static void main(String[] args) {
+//		1부터 200사이의 짝수의 합을 인쇄하시오
+		int sum = 0;
+		int x = 0;
+		while(x % 2 == 0){
+			sum += x;
+		}
+		System.out.println(sum);
+	}
+
+}

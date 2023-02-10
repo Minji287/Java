@@ -1,0 +1,20 @@
+package package_1;
+
+public class P51 {
+
+	public static void main(String[] args) {
+		/*
+		 * P51
+		 * 1) 실수형으로 상수형 변수 PI를 만들고 초기 값으로 3.14를 저장한다.
+		 * 2) 반지름이 30인 원의 넓이와 원의 둘레를 계산해서
+		 * 반지름, 원의 넓이, 원의 둘레를 화면에 출력하시오.
+		 */
+		final double PI = 3.14;
+		double r = 30;
+		
+		System.out.println("반지름: " + r);
+		System.out.println("원의 넓이: " + (PI*r)*(PI*r));
+		System.out.println("원의 둘레: " + (PI*r));
+	}
+
+}

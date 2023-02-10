@@ -1,0 +1,18 @@
+package newPackage;
+
+public class SamplePrintf_1 {
+
+	public static void main(String[] args) {
+		String str = "3+5 = ";
+		int x = 8;
+		int a = 3;
+		int b = 5;
+		
+		System.out.println(str + x);
+		System.out.println("3+5 = " + (a+b));
+		System.out.println(0x1A); // 16진수 1A를 10진수로 인쇄
+		System.out.printf("%d%n", 0x1A);
+		System.out.printf("%.2f", 10.0/3);
+	}
+
+}

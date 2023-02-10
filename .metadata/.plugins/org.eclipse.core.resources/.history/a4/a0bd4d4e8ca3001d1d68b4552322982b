@@ -1,0 +1,13 @@
+package chapter3;
+
+public class Ex3_14 {
+
+	public static void main(String[] args) {
+		String str1 = "abc";
+		String str2 = new String("abc");
+		
+		System.out.println(str1 == str2);
+		System.out.println("\"감사합니다\"");
+		System.out.printf("\"abc\" == \"abc\" ? %b%n", "abc" == "abc");
+	}
+}

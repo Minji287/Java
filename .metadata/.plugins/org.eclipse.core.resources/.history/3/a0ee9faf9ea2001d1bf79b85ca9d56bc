@@ -1,0 +1,14 @@
+package Sample_1;
+
+public class Test_4 {
+
+	public static void main(String[] args) {
+		int score = 200;
+		score = 300;
+		int MAX = 100;
+		
+		System.out.println(score);
+		System.out.println(MAX);
+	}
+
+}

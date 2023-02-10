@@ -1,0 +1,18 @@
+package package_1;
+
+public class P112_2 {
+
+	public static void main(String[] args) {
+		/*
+		 * P112-2
+		 * 1부터 100까지에서 짝수의 합?
+		 */
+		int sum = 0;
+		for(int i = 0; i <= 100; i++) {
+			i++;
+			sum += i;
+		}
+		System.out.println("1부터 100까지에서 짝수의 합: " + sum);
+	}
+
+}

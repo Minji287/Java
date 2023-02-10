@@ -1,0 +1,13 @@
+package chapter3;
+
+public class Test_3 {
+
+	public static void main(String[] args) {
+		int a = 3;
+		int b;
+		b = a << 2;
+		
+		System.out.println(b);
+	}
+
+}

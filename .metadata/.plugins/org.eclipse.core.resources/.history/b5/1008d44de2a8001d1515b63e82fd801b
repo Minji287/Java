@@ -1,0 +1,12 @@
+package package_1;
+
+public class P112 {
+
+	public static void main(String[] args) {
+		/*
+		 * P112
+		 * 1부터 100까지의 합을 출력
+		 */
+	}
+
+}

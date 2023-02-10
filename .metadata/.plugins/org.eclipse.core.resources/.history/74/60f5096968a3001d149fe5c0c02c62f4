@@ -1,0 +1,18 @@
+package package_1;
+
+public class Test_3 {
+
+	public static void main(String[] args) {
+		int a = 33;
+		double d = 3.14;
+//		a = (int)d; // 강제
+//		System.out.println(a);
+		d = a;
+		System.out.println(d);
+		int c = 44;
+		double f = 3.77;
+		c = (int)f;
+		System.out.println(c);
+	}
+
+}

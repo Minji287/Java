@@ -1,0 +1,9 @@
+package newPackage;
+
+public class SamplePrintf_2 {
+
+	public static void main(String[] args) {
+		System.out.println("지금은 2023년 2월 입니다.");
+	}
+
+}

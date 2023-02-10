@@ -1,0 +1,15 @@
+package package_2;
+
+public class Test_4 {
+
+	public static void main(String[] args) {
+//		별 찍기
+		for(int i = 1; i <= 10; i++) { // 행의 수
+			for(int j = 1; j <= i ; j++) { // 열의 수
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+
+}

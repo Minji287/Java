@@ -1,0 +1,17 @@
+package package_1;
+
+public class P83 {
+
+	public static void main(String[] args) {
+		/*
+		 * P83
+		 * 1) 78.5 를 소숫점 첫째 자리에서 반올림하여 출력하시오.
+		 * 2) 7.1255 를 수숫점 4째 자리에서 반올림하여 출력하시오.
+		 */
+		double x = 78.5;
+		double y = 7.1255;
+		System.out.println(Math.round(x));
+		System.out.printf("%.4f", y);
+	}
+
+}

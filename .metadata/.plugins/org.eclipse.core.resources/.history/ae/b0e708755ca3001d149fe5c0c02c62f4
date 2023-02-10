@@ -1,0 +1,25 @@
+package package_1;
+
+import java.util.Scanner;
+
+public class Test_1 {
+
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		
+		System.out.println("이름?");
+		String name = scn.nextLine();
+		System.out.println(name);
+		System.out.println("국어 성적?");
+		String kor = scn.nextLine();
+		System.out.println("수학 성적?");
+		String mat = scn.nextLine();
+		
+		int total = Integer.parseInt(kor) + Integer.parseInt(mat);
+		int avg = total / 2;
+		
+		System.out.println("합계: " + total);
+		System.out.println("평균: " + avg);
+	}
+
+}

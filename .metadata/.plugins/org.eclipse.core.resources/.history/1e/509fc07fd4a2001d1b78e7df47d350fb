@@ -1,0 +1,25 @@
+package newPackage;
+
+public class Sample_7 {
+
+	public static void main(String[] args) {
+		int a = 99;
+		int b = 88;
+		int tmp;
+		tmp = a;
+		a = b;
+		b = tmp;
+		System.out.println(a);
+		System.out.println(b + "\n");
+
+		System.out.println((3 + '0'));
+		System.out.println(3 + 'A');
+		System.out.println((char)(3 + '0'));
+		System.out.println(3 + "");
+		System.out.println(Integer.parseInt("3") + 1);
+		System.out.println(Integer.parseInt("12") + 10);
+		System.out.println("3" + 1);
+		System.out.println((char)(3 + '0'));
+	}
+
+}

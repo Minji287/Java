@@ -1,0 +1,12 @@
+package package_1;
+
+public class P112_2 {
+
+	public static void main(String[] args) {
+		/*
+		 * P112-2
+		 * 1부터 100까지에서 짝수의 합?
+		 */
+	}
+
+}

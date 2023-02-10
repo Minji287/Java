@@ -1,0 +1,20 @@
+package chapter3;
+
+public class Test_3 {
+
+	public static void main(String[] args) {
+//		shift(비트) 연산자
+//		<< (왼쪽으로 한번 밀어라, 2로 곱한 결과)
+//		>> (오른쪽으로 한번 밀어라, 2로 나눈 결과)
+		int a = 3;
+		int b;
+		
+		b = a << 2;
+		System.out.println(b);
+		
+		a = 12;
+		b = a >> 1;
+		System.out.println(b);
+	}
+
+}

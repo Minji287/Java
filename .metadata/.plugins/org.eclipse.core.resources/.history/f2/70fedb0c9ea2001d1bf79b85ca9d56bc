@@ -1,0 +1,17 @@
+package Sample_1;
+
+public class Ex_6 {
+
+	public static void main(String[] args) {
+		int x = 100; // 정수
+		double pi = 3.14; // 실수
+		char ch = 'a'; // 한 문자
+		String str = "abc"; // 2문자 이상
+		
+		System.out.println(x); // 정수 출력
+		System.out.println(pi); // 실수 출력
+		System.out.println(ch); // 한 문자 출력
+		System.out.println(str); // 문자열 출력
+	}
+
+}

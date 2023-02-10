@@ -1,0 +1,18 @@
+package package_2;
+
+public class Page_106 {
+
+	public static void main(String[] args) {
+		int rank = 1;
+		String medal = "";
+		
+		switch(rank) {
+			case 1 : medal = "금메달"; break;
+			case 2 : medal = "은메달"; break;
+			case 3 : medal = "동메달"; break;
+			default : medal = "노메달";
+		}
+		System.out.println(medal);
+	}
+
+}

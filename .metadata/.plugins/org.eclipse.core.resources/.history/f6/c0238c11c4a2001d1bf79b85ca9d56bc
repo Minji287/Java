@@ -1,0 +1,25 @@
+package newPackage;
+
+import java.util.Scanner;
+
+public class Sample_3 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("국어 성적 입력해주세요.");
+		String kor = scanner.nextLine();
+		System.out.println("수학 성적 입력해주세요.");
+		String mat = scanner.nextLine();
+		System.out.println("과학 성적 입력해주세요.");
+		String sc = scanner.nextLine();
+		
+		int total = Integer.parseInt(kor) + Integer.parseInt(mat) + Integer.parseInt(sc);
+		
+		System.out.println("국어: " + kor);
+		System.out.println("수학: " + mat);
+		System.out.println("과학: " + sc);
+		System.out.println("합계: " + total);
+	}
+
+}

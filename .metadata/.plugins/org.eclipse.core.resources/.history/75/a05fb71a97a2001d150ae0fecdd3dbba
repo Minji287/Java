@@ -1,0 +1,17 @@
+package Sample_1;
+
+public class Test_3 {
+
+	public static void main(String[] args) {
+		int a;
+		a = 5;
+		int b;
+		b = 8;
+		
+		System.out.println(a+b);
+		System.out.println(a*b);
+		System.out.println(b-a);
+		System.out.println(b/a);
+	}
+
+}

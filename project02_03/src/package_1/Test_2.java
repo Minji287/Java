@@ -1,0 +1,31 @@
+package package_1;
+
+public class Test_2 {
+
+	public static void main(String[] args) {
+		int year = 2023;
+		int month = 2;
+		int day = 3;
+		final double PI = 3.14;
+		
+		System.out.print("오늘은 2023년 2월 3일 입니다.\n"); // %n은 인쇄됨
+		System.out.println("오늘은 2023년 2월 3일 입니다.");
+		System.out.println("오늘은 " + year + "년 " + month + "월 " + day + "일 입니다.");
+		System.out.printf("오늘은 %d년 %d월 %d일 입니다.%n", 2023, 2, 3);
+		System.out.printf("오늘은 %d년 %d월 %d일 입니다.%n", year, month, day);
+		
+/*		
+ * 변수형(타입)
+ * 기본형
+ * 정수 byte short int long
+ * 실수 double float
+ * 문자 char
+ * 조건 boolean
+ * 
+ * 참조형 = 기본형을 제외한 나머지
+ * Class에서 제공해주는 문자열 String은
+ * 기본형 변수가 아니지만 Java에서 기본형 변수처럼 사용하도록 만들어줌
+*/
+	}
+
+}

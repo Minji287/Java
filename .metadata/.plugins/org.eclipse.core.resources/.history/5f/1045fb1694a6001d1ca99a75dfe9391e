@@ -1,0 +1,23 @@
+package package_1;
+
+import java.util.Scanner;
+
+public class Test_6 {
+
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		int sum = 0;
+		
+		System.out.println("값을 입력하시오");
+		int x = scn.nextInt();
+		
+		if(x > 5) {
+			sum = 5;
+		} else {
+			sum = 20;
+		}
+		System.out.println(x);
+		System.out.println(sum);
+	}
+
+}
