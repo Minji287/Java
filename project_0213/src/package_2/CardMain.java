@@ -6,7 +6,7 @@ public class CardMain {
 		System.out.println("Card.width = " + Card.width);
 		System.out.println("Card.height = " + Card.height);
 		
-		Card c1 = new Card();
+		Card c1 = new Card(); // 객체 생성(인스턴스화 -> () )
 		c1.kind = "Heart";
 		c1.number = 7;
 		
