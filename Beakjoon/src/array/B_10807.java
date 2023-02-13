@@ -13,17 +13,21 @@ public class B_10807 {
 		 * 첫째 줄에 입력으로 주어진 N개의 정수 중에 v가 몇 개인지 출력한다.
 		 */
 		Scanner in = new Scanner(System.in);
-		int[] arr= new int[n];
 		int n = in.nextInt();
-		arr[n] = in.nextInt();
-		int sum = 0;
+		int[] arr= new int[n];
+		int count = 0;
 		
 		for(int i = 0; i < n; i++) {
-			if(arr[i] == v) {
-				sum++;
+			arr[i] = in.nextInt();
+		}
+		int v = in.nextInt();
+		for(int i = 0; i < arr.length; i++) {
+			if(v == arr[i]) {
+				count++;
 			}
 		}
-		System.out.println(sum);
+		
+		System.out.println(count);
 	}
 
 }
