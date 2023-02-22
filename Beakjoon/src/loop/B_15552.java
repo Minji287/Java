@@ -2,11 +2,12 @@ package loop;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 import java.io.IOException;
 
 public class B_15552 {
 
-	*public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException {
 		/*
 		 * Java를 사용하고 있다면, Scanner와 System.out.println 대신
 		 * BufferedReader와 BufferedWriter를 사용할 수 있다.
@@ -17,7 +18,16 @@ public class B_15552 {
 		 * 각 테스트케이스마다 A+B를 한 줄에 하나씩 순서대로 출력한다.
 		 */
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		br.readLine();
+		StringBuilder sb = new StringBuilder();
+		
+		int n = Integer.parseInt(br.readLine());
+		for(int i = 0; i < n; i++) {
+			StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+			int A = Integer.parseInt(st.nextToken());
+			int B = Integer.parseInt(st.nextToken());
+			sb.append(A+B + "\n");
+		}
+		System.out.println(sb);
 	}
 
 }
