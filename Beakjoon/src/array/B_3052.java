@@ -23,7 +23,7 @@ public class B_3052 {
 		}
 		for(int i = 0; i < 10; i++) {
 			int temp = 0;
-			for(int j = i+1; j < 10; j++) { // 왜 j=1을 하면 결과값이 달라짐
+			for(int j = i+1; j < 10; j++) {
 				if(arr[i] == arr[j]) {
 					temp++;
 				}
@@ -33,7 +33,6 @@ public class B_3052 {
 			}
 		}
 		System.out.println(count);
-		gg
 	}
 
 }
