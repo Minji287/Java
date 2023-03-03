@@ -39,7 +39,7 @@ class Buyer { // 고객, 물건을 사는 사람
 class Ex7_8 {
 	public static void main(String[] args) {
 		Buyer b = new Buyer();
-		b.buy(new Tv1()); // Product p = new Tv1; 업캐스팅
+		b.buy(new Tv1()); // Product p(부모의 참조변수) = new Tv1; 업캐스팅
 		b.buy(new Computer()); // 업캐스팅
 		System.out.println("현재 남은 돈은 " + b.money + "만원입니다.");
 		System.out.println("현재 현재 보너스점수는  " + b.bonusPoint + "점 입니다.");
