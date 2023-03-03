@@ -50,7 +50,7 @@ public class FruitMain2 {
 		System.out.printf("%14s", "영수증\n");
 		System.out.println("------------------------");
 		
-		
+		*
 		
 	}
 
