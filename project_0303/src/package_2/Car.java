@@ -34,7 +34,7 @@ class Grandeur extends Car{
 class BuyNew {
 	int total = 5000;
 	
-	void buy(Car c) {
+	void buy2(Car c) {
 		System.out.println(c + "를 선택하셨습니다.");
 		System.out.println(c.price + "만원 입니다.");
 	}

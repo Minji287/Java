@@ -5,9 +5,9 @@ public class CarMain {
 	public static void main(String[] args) {
 		BuyNew nc = new BuyNew();
 		
-		nc.buy(new Volvo());
-		nc.buy(new Genesis());
-		nc.buy(new Grandeur());
+		nc.buy2(new Volvo());
+		nc.buy2(new Genesis());
+		nc.buy2(new Grandeur());
 	}
 
 }
