@@ -32,8 +32,12 @@ class Ex11_4 {
 					LinkedList tmp = (LinkedList)q;
 					ListIterator it = tmp.listIterator();
 
-					while(it.hasNext())
+//					while(it.hasNext())
+//						System.out.println(++i+"."+it.next());
+					final int len = tmp.size();
+					for(i = 0; i < len; i++) {
 						System.out.println(++i+"."+it.next());
+					}
 				} else {
 					save(input);    
 					System.out.println(input);

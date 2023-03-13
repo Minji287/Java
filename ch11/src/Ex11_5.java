@@ -2,7 +2,7 @@ import java.util.*;
 
 class Ex11_5 {
 	public static void main(String[] args) {
-		ArrayList list = new ArrayList();
+		ArrayList list = new ArrayList(); // HashSet, Collection, HashMap
 		list.add("1");
 		list.add("2");
 		list.add("3");
@@ -10,8 +10,10 @@ class Ex11_5 {
 		list.add("5");
 
 		Iterator it = list.iterator();
-
-		while(it.hasNext()) {
+		
+		final int len = list.size();
+		for(int i = 0; i < len; i++) {
+//		while(it.hasNext()) {
 			Object obj = it.next();
 			System.out.println(obj);
 		}

@@ -28,9 +28,14 @@ class Ex11_6 {
 		System.out.println("arr7="+Arrays.toString(arr7));
 
 		for(int i : arr7) {
+//			for(int x = 0; x < arr7.length; x++){
+//				int i = arr7[x]; 을 줄인 것
 			char[] graph = new char[i];
 			Arrays.fill(graph, '*');
 			System.out.println(new String(graph)+i);
+//			String(문자열)을 char[](배열)로 -> String -> char[]
+//			char[](배열) -> String(문자열) -> String(char[])
+//			String(graph)는 graph 배열을 문자열로 바꾼 것
 		}
 
 		String[][] str2D  = new String[][]{{"aaa","bbb"},{"AAA","BBB"}};
@@ -42,9 +47,9 @@ class Ex11_6 {
 		char[] chArr = { 'A', 'D', 'C', 'B', 'E' };
 
 		System.out.println("chArr="+Arrays.toString(chArr));
-		System.out.println("index of B ="+Arrays.binarySearch(chArr, 'B'));
+		System.out.println("index of B ="+Arrays.binarySearch(chArr, 'B')); // 정렬이 되어 있어야 binarySearch 가능
 		System.out.println("= After sorting =");
-		Arrays.sort(chArr);
+		Arrays.sort(chArr); // 정렬 
 		System.out.println("chArr="+Arrays.toString(chArr));
 		System.out.println("index of B ="+Arrays.binarySearch(chArr, 'B'));
 	}
