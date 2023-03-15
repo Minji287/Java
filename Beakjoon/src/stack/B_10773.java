@@ -7,21 +7,19 @@ import java.util.Stack;
 
 public class B_10773 {
 
-	*public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		Stack stack = new Stack();
+		Stack<Integer> stack = new Stack<Integer>();
 		int n = Integer.parseInt(br.readLine());
 		int sum = 0;
 		
 		for(int i = 0; i < n; i++) {
-			int num = 0;
-			int numBefore = num;
-			num = Integer.parseInt(br.readLine());
+			int num = Integer.parseInt(br.readLine());
 			if(num != 0) {
 				stack.push(num);
 				sum += num;
-			} else {
-				sum -= numBefore;
+			} else {	
+				sum -= stack.peek();
 				stack.pop();
 			}
 			
