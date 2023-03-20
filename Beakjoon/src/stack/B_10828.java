@@ -14,7 +14,7 @@ public class B_10828 {
 		int n = Integer.parseInt(br.readLine());
 		
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		*
+		
 	}
 
 }
