@@ -11,17 +11,21 @@ public class B_2839 {
 		
 		int n = Integer.parseInt(br.readLine());
 		int times = 0;
-		int left = 0;
-
-		for(int i = 0; i < 2; i++) {
+		
+		while(true) {
 			if(n % 5 == 0) {
-				times = n / 5;
-			} else if(n % 3 == 0) {
-				times = n / 3;
-			}*
+				times += n / 5;
+				System.out.println(times);
+				break;
+			}else {
+				n -= 3;
+				times++;
+			}
+			if(n < 0) {
+				System.out.println(-1);
+				break;
+			}
 		}
-		if(left != 0) System.out.println(-1);
-		else System.out.println(times);
 	}
 
 }
