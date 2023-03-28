@@ -11,17 +11,15 @@ public class B_14916 {
 		int n = Integer.parseInt(br.readLine());
 		int count = 0;
 		
-		if(n % 5 == 0) {
-			count = n / 5;
-		} else if(n % 3 == 0) {
-			count = n / 3;
-		} else {
-			n = n - 5;
-			if(n % 3 == 0) {
-				n = n / 3;
+		while(n > 0) {
+			if(n % 5 == 0) {
+				count += n / 5;
+				break;
 			}
-		}*
-		System.out.println(count);
+			n -= 2;
+			count++;
+		}
+		if(n < 0) System.out.println(-1);
+		else System.out.println(count);
 	}
-
 }
